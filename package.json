@@ -1,0 +1,43 @@
+{
+  "name": "@obiwan/vuepress-plugin-redirect",
+  "version": "1.0.0",
+  "description": "VuePress 2 plugin to handle redirection",
+  "keywords": [
+    "i18n",
+    "plugin",
+    "redirect",
+    "router",
+    "vuepress"
+  ],
+  "homepage": "https://github.com/0biWanKenobi",
+  "bugs": {
+    "url": "https://github.com/0biWanKenobi/vuepress-plugin-redirect/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0biWanKenobi/vuepress-plugin-redirect.git"
+  },
+  "license": "MIT",
+  "author": {
+    "email": "metal.rulesall@gmail.com",
+    "name": "Stefano La Terra",
+    "url": "https://github.com/0biWanKenobi"
+  },
+  "main": "lib/node/index.js",
+  "types": "lib/node/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@types/node": "^16.11.11",
+    "@vuepress/client": "2.0.0-beta.27",
+    "@vuepress/core": "2.0.0-beta.27",
+    "@vuepress/utils": "2.0.0-beta.27"
+  }
+}

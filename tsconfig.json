@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "composite": true,
+    "useDefineForClassFields": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "DOM"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    // Generate d.ts files
+    "declaration": true,
+    "types": ["@vuepress/client/types"]
+  },
+  "include": ["./src"]
+}
