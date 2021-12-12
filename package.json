@@ -7,7 +7,7 @@
     "plugin",
     "redirect",
     "router",
-    "vuepress"
+    "vuepress 2"
   ],
   "homepage": "https://github.com/0biWanKenobi",
   "bugs": {
@@ -20,7 +20,7 @@
   "license": "MIT",
   "author": {
     "email": "metal.rulesall@gmail.com",
-    "name": "Stefano La Terra",
+    "name": "0biwankenobi",
     "url": "https://github.com/0biWanKenobi"
   },
   "main": "lib/node/index.js",
@@ -29,7 +29,8 @@
     "lib"
   ],
   "scripts": {
-    "build": "tsc -b tsconfig.build.json"
+    "build": "tsc -b tsconfig.build.json",
+    "clean": "rimraf *.tsbuildinfo"
   },
   "devDependencies": {
     "typescript": "^4.5.2"
