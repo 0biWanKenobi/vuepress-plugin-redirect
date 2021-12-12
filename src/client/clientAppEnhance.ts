@@ -157,8 +157,7 @@ const enhanceApp = defineClientAppEnhance(({ router, siteData }) => {
       if (target) break;
     }
 
-    // target ? next(target) : next();
-    return next();
+    return target ? next(target) : next();
   });
 
   router.afterEach(to => {
