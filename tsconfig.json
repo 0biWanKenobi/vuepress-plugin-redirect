@@ -13,6 +13,5 @@
     // Generate d.ts files
     "declaration": true,
     "types": ["@vuepress/client/types"]
-  },
-  "include": ["./src"]
+  }
 }
