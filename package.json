@@ -1,6 +1,6 @@
 {
-  "name": "@obiwan/vuepress-plugin-redirect",
-  "version": "1.0.0",
+  "name": "@0biwankenobi/vuepress-plugin-redirect",
+  "version": "1.0.0+1",
   "description": "VuePress 2 plugin to handle redirection",
   "keywords": [
     "i18n",
